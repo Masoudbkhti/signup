@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="desktop-container">
+        <div class="form">
+          <div class="label-container">
+            <div class="lable-text">
+              <h2 class="lable-title">Welcome back</h2>
+            </div>
+          </div>
+          <div class="form-container">
+            <div>
+              <h2 class="form-container__title">Login your account</h2>
+            </div>
+            <form class="form-inputs">
+              <input
+                class="form-input__detail"
+                id="username"
+                placeholder="Username"
+                type="text"
+              />
+              <div class="log">
+                <p id="username-log"></p>
+              </div>
+              <input
+                class="form-input__detail"
+                id="email"
+                placeholder="Email"
+                type="email"
+              />
+              <div class="log">
+                <p id="email-log"></p>
+              </div>
+              <input
+                class="form-input__detail"
+                id="password"
+                placeholder="Password"
+                type="password"
+              />
+              <div class="log">
+                <p id="password-log"></p>
+              </div>
+              <submit class="form-button" href="#">Login</submit>
+
+              <a class="sign-up" href="#">Create Account</a>
+              <a class="reset-password" href="#">Forget Password?</a>
+            </form>
+          </div>
+        </div>
+        <div class="middle-line"></div>
+        <div class="desktop-logo">
+          <img class="login-img" src="images/login-img.jpg" alt="login" />
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
